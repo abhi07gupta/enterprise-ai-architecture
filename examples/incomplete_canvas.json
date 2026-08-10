@@ -1,0 +1,10 @@
+{
+  "initiative": {
+    "name": "Unbounded agent",
+    "decision": "scale"
+  },
+  "trust": {
+    "risk_level": "critical",
+    "human_oversight": "none"
+  }
+}

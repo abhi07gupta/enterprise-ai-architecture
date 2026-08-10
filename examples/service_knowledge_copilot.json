@@ -1,0 +1,39 @@
+{
+  "initiative": {
+    "name": "Service knowledge copilot",
+    "owner": "Operations Excellence",
+    "decision_date": "2026-08-11",
+    "decision": "pilot"
+  },
+  "value": {
+    "outcome": "Reduce time to resolve known incidents",
+    "baseline": "Median 42 minutes",
+    "success_measure": "20% lower median without worse reopen rate"
+  },
+  "context": {
+    "users": "Tier-2 service engineers",
+    "workflow": "Incident diagnosis",
+    "data_classification": "Internal"
+  },
+  "architecture": {
+    "system_boundary": "Read-only evidence synthesis",
+    "integration": "Approved knowledge API",
+    "fallback": "Existing search and runbooks"
+  },
+  "trust": {
+    "risk_level": "high",
+    "human_oversight": "Engineer accepts or rejects every recommendation",
+    "evaluation": "Groundedness, retrieval recall, unsafe-action rate",
+    "failure_modes": "Missing evidence, stale procedure, confident unsupported answer"
+  },
+  "operations": {
+    "service_owner": "Knowledge services",
+    "monitoring": "Quality, latency, cost, abstention",
+    "incident_path": "Disable assistant and revert to search"
+  },
+  "adoption": {
+    "change_owner": "Service enablement",
+    "enablement": "Pilot cohort and scenario training",
+    "feedback_loop": "Inline rating plus weekly review"
+  }
+}

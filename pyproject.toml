@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "enterprise-ai-architecture"
+version = "1.0.0"
+description = "Evidence-led decision controls for enterprise AI initiatives"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Abhi Gupta"}]
+keywords = ["enterprise-ai", "architecture", "governance", "decision-record"]
+
+[project.scripts]
+eai-check = "enterprise_ai_architecture.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
