@@ -1,0 +1,76 @@
+{
+  "scenario_id": "synthetic-metro-access-001",
+  "nodes": [
+    "core-a",
+    "aggregation-a",
+    "access-north",
+    "access-east",
+    "service-probe"
+  ],
+  "topology": [
+    {
+      "source": "core-a",
+      "target": "aggregation-a",
+      "relation": "feeds"
+    },
+    {
+      "source": "aggregation-a",
+      "target": "access-north",
+      "relation": "feeds"
+    },
+    {
+      "source": "aggregation-a",
+      "target": "access-east",
+      "relation": "feeds"
+    },
+    {
+      "source": "access-north",
+      "target": "service-probe",
+      "relation": "serves"
+    }
+  ],
+  "signals": [
+    {
+      "id": "chg-101",
+      "timestamp": "2026-08-11T10:00:00Z",
+      "kind": "change",
+      "node": "aggregation-a",
+      "name": "routing_policy",
+      "state": "completed"
+    },
+    {
+      "id": "alm-201",
+      "timestamp": "2026-08-11T10:06:00Z",
+      "kind": "alarm",
+      "node": "access-north",
+      "name": "packet_loss",
+      "state": "degraded"
+    },
+    {
+      "id": "alm-202",
+      "timestamp": "2026-08-11T10:07:00Z",
+      "kind": "alarm",
+      "node": "access-east",
+      "name": "packet_loss",
+      "state": "degraded"
+    },
+    {
+      "id": "met-301",
+      "timestamp": "2026-08-11T10:08:00Z",
+      "kind": "metric",
+      "node": "aggregation-a",
+      "name": "health_score",
+      "state": "anomalous",
+      "value": 0.42
+    },
+    {
+      "id": "met-302",
+      "timestamp": "2026-08-11T10:08:30Z",
+      "kind": "metric",
+      "node": "core-a",
+      "name": "cpu_utilization",
+      "state": "normal",
+      "value": 0.35
+    }
+  ]
+}

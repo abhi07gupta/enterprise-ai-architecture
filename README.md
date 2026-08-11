@@ -4,7 +4,7 @@
 [![MIT license](https://img.shields.io/badge/license-MIT-0f766e.svg)](LICENSE)
 
 An evidence-led decision canvas and executable quality gate for reviewing an
-AI initiative before it advances.
+enterprise or product AI initiative before it advances.
 
 The toolkit documents six decisions that determine whether an initiative is
 ready to progress: value, context, architecture, trust, operations, and
@@ -86,6 +86,7 @@ people who already hold that authority a clearer, testable record.
 src/enterprise_ai_architecture/  validation, assessment, CLI
 examples/                        complete and intentionally incomplete canvases
 docs/                            canvas guidance and review checklist
+reference_apps/                  synthetic, product-facing reference applications
 tests/                           behavioral tests
 .github/workflows/               multi-version quality gate
 ```
@@ -96,6 +97,7 @@ tests/                           behavioral tests
 - architecture review is dominated by model selection rather than system risk;
 - ownership is fragmented between data, product, security, and operations;
 - a team needs a consistent decision record across multiple AI initiatives;
+- a product team needs explicit quality, feedback, fallback, and operating evidence;
 - a leader needs to explain why an initiative should scale, pause, or stop.
 
 Do not use the numeric score as procurement ranking, regulatory evidence, or a
@@ -112,12 +114,12 @@ substitute for domain-specific assurance.
 ## Public-use note
 
 All examples are synthetic and domain-neutral. The framework reflects Abhi
-Gupta's public point of view on enterprise AI architecture; it does not disclose
+Gupta's public point of view on enterprise and product AI architecture; it does not disclose
 employer systems, data, clients, or internal architecture.
 
 ## Author
 
-**Abhi Gupta**: Enterprise AI technical leader and architect based in Stockholm.
+**Abhi Gupta**: AI systems technical leader and architect across enterprise and product contexts, based in Stockholm.
 
 [Portfolio](https://abhi07gupta.github.io/) ·
 [LinkedIn](https://www.linkedin.com/in/abhi07gupta/) ·
