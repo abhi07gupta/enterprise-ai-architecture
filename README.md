@@ -3,14 +3,13 @@
 [![quality](https://github.com/abhi07gupta/enterprise-ai-architecture/actions/workflows/quality.yml/badge.svg)](https://github.com/abhi07gupta/enterprise-ai-architecture/actions/workflows/quality.yml)
 [![MIT license](https://img.shields.io/badge/license-MIT-0f766e.svg)](LICENSE)
 
-An evidence-led decision canvas and executable quality gate for taking an AI
-initiative from attractive demo to accountable enterprise capability.
+An evidence-led decision canvas and executable quality gate for reviewing an
+AI initiative before it advances.
 
-This repository is intentionally not a vendor reference stack. Enterprise AI
-fails less often because a team chose the wrong framework than because value,
-system boundaries, human authority, operational ownership, and adoption were
-never designed together. The toolkit makes those decisions explicit and
-reviewable.
+The toolkit documents six decisions that determine whether an initiative is
+ready to progress: value, context, architecture, trust, operations, and
+adoption. It is vendor-neutral and keeps evidence and decision authority
+visible throughout the review.
 
 ## What is included
 
@@ -118,7 +117,7 @@ employer systems, data, clients, or internal architecture.
 
 ## Author
 
-**Abhi Gupta** — Enterprise AI technical leader and architect based in Stockholm.
+**Abhi Gupta**: Enterprise AI technical leader and architect based in Stockholm.
 
 [Portfolio](https://abhi07gupta.github.io/) ·
 [LinkedIn](https://www.linkedin.com/in/abhi07gupta/) ·
